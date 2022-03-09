@@ -1,0 +1,44 @@
+#color-background {
+    background-color: aqua;
+}
+
+main {
+    background: rgba(255, 255, 255, 0.8);
+    width: 72.5vw;
+    border-radius: 0.3rem;
+}
+
+figure > button > img:hover {
+    opacity: 0.9;
+    transition-duration: 350ms;
+}
+
+#modal-button:focus {
+    box-shadow: none;
+}
+
+#image-instruction {
+    font-size: 10px;
+    font-style: italic;
+    color: rgb(49, 49, 49);
+}
+
+#tooltip {
+    position: fixed;
+    display: block;
+    visibility: hidden;
+    font-size: 1vw;
+    background: rgba(49, 49, 49, 0.95);
+    border-radius: 0.3rem;
+    padding: 2px 12px;
+    color: white;
+}
+
+button:hover > #tooltip {
+    opacity: 1;
+    visibility: visible;
+}
+
+#modal-button:focus {
+    outline: none;
+}
