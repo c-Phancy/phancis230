@@ -2,6 +2,10 @@
     background-color: aqua;
 }
 
+body {
+    text-align: center;
+}
+
 main {
     background: rgba(255, 255, 255, 0.8);
     width: 72.5vw;

@@ -8,6 +8,7 @@ body {
 }
 
 #footer-div {
+    z-index: 2;
     position: fixed;
     left: 0;
     bottom: 0;
@@ -17,7 +18,7 @@ body {
 }
 
 .btn:hover {
-    text-decoration: underline 2px #cbd3da;
+    text-decoration: underline 2px #cbd3da !important;
 }
 
 .btn:focus {
@@ -26,6 +27,7 @@ body {
 
 ::-webkit-scrollbar {
   width: 5px;
+  height: 8px;
 }
 
 ::-webkit-scrollbar-track {
@@ -35,32 +37,4 @@ body {
 ::-webkit-scrollbar-thumb {
   background: #343a40;
   border-radius: 0.3rem;
-}
-
-/* Add a css file if project classes expands (index) */
-
-.no-select {
-    user-select: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none; 
-    -ms-user-select: none;
-}
-
-.characters {
-    pointer-events: none;
-}
-
-.characters:hover {
-    background-color: #343a40 !important;
-    color: white !important;
-    transition-duration: 450ms;
-}
-
-td > a {
-    pointer-events: auto;
-}
-
-td > a:hover {
-    color: white;
 }
