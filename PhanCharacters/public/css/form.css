@@ -1,0 +1,33 @@
+:root {
+    --accent-color: #56a3a3;
+}
+
+.form-button {
+    background-color: var(--accent-color);
+    color: white;
+}
+
+.form-button:hover, .store-button:hover {
+    color: #cbd3da;
+}
+
+.store-button {
+    border-color: var(--accent-color);
+}
+
+.store-button:hover {
+    background-color: var(--accent-color);
+}
+
+.flex-item {
+    width: 25vw;
+}
+
+.occupation-wrapper-fieldset:not(:nth-child(2)) {
+    column-gap: 1em;
+    row-gap: .5em;
+}
+
+label {
+    font-weight: 600;
+}

@@ -1,0 +1,94 @@
+:root {
+    --accent-color: #56a3a3;
+    --secondary-accent: #336699;
+}
+
+.table {
+  border-collapse: collapse;
+}
+
+.table-striped .d-table-row:nth-of-type(even) {
+  background-color: rgb(220, 228, 236);
+}
+
+.d-table-row:nth-of-type(odd) {
+    background-color: rgb(245, 246, 248);
+}
+
+/* .no-select {
+    user-select: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none; 
+    -ms-user-select: none;
+} */
+
+.characters {
+    pointer-events: none;
+}
+
+.pointer {
+    pointer-events: auto;
+}
+
+.characters:hover {
+    background-color: #343a40 !important;
+    color: white !important;
+    transition-duration: 450ms;
+}
+
+.d-table-cell > a:hover {
+    color: white;
+}
+
+.d-table-cell {
+    padding: 1rem;
+}
+
+.table-header {
+    border-bottom: #336699 4px solid;
+}
+
+.character-hover {
+    color: white !important;
+}
+
+#create-button, .edit-button {
+    background-color: var(--accent-color);
+}
+
+.character-name {
+    color: var(--accent-color);
+}
+
+.delete-button {
+    background-color: #CD5C5C;
+}
+
+.form-button:hover {
+    color: #cbd3da!important;
+}
+
+.transparent {
+    opacity: 0;
+}
+
+/***** Paginator *****/
+
+.page-link {
+    color: var(--secondary-accent) !important;
+}
+
+.page-item.active .page-link {
+    background-color: var(--secondary-accent) !important;
+    border-color: #343a40 !important;
+    color: white !important;
+}
+
+.page-link:focus {
+    box-shadow: 0 0 0 0.2rem rgb(51 102 153 / 25%) !important;
+}
+
+.page-item.disabled .page-link {
+    color: #d0d3d6 !important;
+}
